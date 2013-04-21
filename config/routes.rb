@@ -46,4 +46,6 @@ Tickette::Application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+  root :to => "projects#index"
+  resources :projects
 end
